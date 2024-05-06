@@ -1,0 +1,29 @@
+@font-face {
+    font-family: dpp;
+    src: url(pokemon-dp-pro.ttf);
+  }
+
+.pic{
+    position:absolute;
+    display: block;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    height: "500px";
+    width: "500px";
+    image-rendering: pixelated;
+}
+
+.txt{
+    text-align: center;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    font-family: dpp;
+    font-size: "72";
+    -webkit-font-smoothing: none;
+}
